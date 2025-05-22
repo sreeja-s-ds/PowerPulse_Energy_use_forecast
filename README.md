@@ -8,7 +8,7 @@ Dataset can be viewed or downloaded from https://archive.ics.uci.edu/dataset/235
 
 In a world increasingly dependent on data-driven decisions, understanding how and when electricity is consumed is vital. This project, Power Pulse, embarks on a journey through time-series electricity consumption data to uncover temporal usage patterns, identify peak periods, and offer insights into human behavior through the lens of energy use.
 
-By treating data as a story, this project transforms raw timestamped electricity readings into a coherent narrative—one that unfolds across hours, days, and months. Through feature engineering and data visualization, we decode the rhythms of energy consumption and pave the way for predictive modeling and sustainable planning.
+By treating data as a story, this project transforms raw timestamped electricity readings into a coherent narrative—one that unfolds across hours, days, and months. Through feature engineering and data visualization, project decode the rhythms of energy consumption and pave the way for predictive modeling and sustainable planning.
 
 **Objectives**
 
@@ -20,7 +20,9 @@ To communicate insights visually and interpretatively, enabling a deeper underst
 
 **Dataset Description**
 
-The dataset comprises timestamped electricity consumption values, recorded at regular intervals. Key components include:
+The dataset comprises timestamped electricity consumption values, recorded at regular intervals. 
+
+Key components include:
 
 Datetime: The exact time of each consumption entry.
 
@@ -43,6 +45,8 @@ Duplicate or missing entries (if any) are handled to ensure data integrity.
 Hour, Day, Month, and Weekday are extracted from the Datetime column.
 
 An is_weekend flag is generated to differentiate between weekdays and weekends.
+
+Rolling averages are also introduced addtionally.
 
 3. Visualization and Pattern Detection
 
