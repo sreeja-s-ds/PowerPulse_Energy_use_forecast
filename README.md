@@ -2,6 +2,8 @@
 
 ⚡ **Power Pulse: Exploring Electricity Consumption Patterns**
 
+Dataset can be viewed or downloaded from https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+
 **Overview**
 
 In a world increasingly dependent on data-driven decisions, understanding how and when electricity is consumed is vital. This project, Power Pulse, embarks on a journey through time-series electricity consumption data to uncover temporal usage patterns, identify peak periods, and offer insights into human behavior through the lens of energy use.
